@@ -11,7 +11,7 @@ using namespace std;
       TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
   };
 
-class Solu {
+class Solution {
 public:
     bool isValidBST(TreeNode* root) {
         return isValidBST(root,LLONG_MIN,LLONG_MAX);
